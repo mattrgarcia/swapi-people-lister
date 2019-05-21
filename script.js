@@ -25,7 +25,7 @@ const fetchData = async() => {
 
     }
 
-  })
+  });
   }
   catch (err){
     console.log(err);
