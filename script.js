@@ -19,13 +19,6 @@ const fetchData = async() => {
         details = data.results[i];
       }
      Object.entries(details).forEach(([key, value]) => arr.push(`${key}: ${value}`));
-      // for (let key in details){
-      //   if(){
-      //   arr.push(key+':'+details[key]);
-      //   }
-      // }
-      //console.log(arr);
-
      const detailHTML = arr.map( item => `<li>${item}</li>`).join('');
      const detailClass = document.querySelector('.details');
      detailClass.innerHTML = detailHTML;
