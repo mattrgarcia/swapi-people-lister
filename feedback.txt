@@ -1,0 +1,32 @@
+## Grading Rubric
+
+# Final Score: 13 / 15 points
+
+### ui displaying state 4 / 4 pts
+- some data displayed properly 2 / 2 pt
+- all data displayed properly 2 / 2 pt
+### css 1 / 2 pts
+- ui has styles applied 1 / 1 pt
+- ui is mobile friendly 0 / 1 pt
+### event handlers 1 / 3 pts
+- event handlers being captured 1 / 1 pt
+- is state being changed 1 / 1 pt
+- is the state being re-rendered properly 0 / 1 pt
+### edge cases 2 / 2 pts
+
+### code style 3 / 4 pts
+- proper indentation 0.5 / 0.5
+- semicolons 0.5 / 0.5
+- proper use of let and const 0.5 / 0.5
+- consistent use of arrow and/or functions 0.5 / 0.5
+- code complexity 1 / 2 pts
+
+Notes:
+
+Great job!
+
+Looks like the data is being rendered multiple times by mistake. This can be fixed by moving the closing curly brace } of the "for loop" to just after the closing brace of the "if statement". 
+
+Could recommend using data-id or some "data attribute" for storing information on your <li> tags. This would be a safer practice for dealing with data in general, rather than relying on the innerHTML to find the right person.
+
+
